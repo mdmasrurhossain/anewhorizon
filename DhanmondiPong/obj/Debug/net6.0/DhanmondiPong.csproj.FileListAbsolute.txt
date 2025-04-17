@@ -25,3 +25,4 @@ C:\Users\rman\git\anewhorizon\DhanmondiPong\obj\Debug\net6.0\DhanmondiPong.pdb
 C:\Users\rman\git\anewhorizon\DhanmondiPong\obj\Debug\net6.0\DhanmondiPong.genruntimeconfig.cache
 C:\Users\rman\git\anewhorizon\DhanmondiPong\obj\Debug\net6.0\ref\DhanmondiPong.dll
 C:\Users\rman\git\anewhorizon\DhanmondiPong\bin\Debug\net6.0\Content\simple_ball.xnb
+C:\Users\rman\git\anewhorizon\DhanmondiPong\bin\Debug\net6.0\Content\simple_paddle.xnb

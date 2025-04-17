@@ -1,2 +1,3 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/rman/git/anewhorizon/DhanmondiPong/Content/simple_ball.png","C:/Users/rman/git/anewhorizon/DhanmondiPong/Content/bin/DesktopGL/Content/simple_ball.xnb","TextureProcessor","Texture2DContent",190,16469,0.1416074
+"C:/Users/rman/git/anewhorizon/DhanmondiPong/Content/simple_ball.png","C:/Users/rman/git/anewhorizon/DhanmondiPong/Content/bin/DesktopGL/Content/simple_ball.xnb","TextureProcessor","Texture2DContent",220,16469,0.0031633
+"C:/Users/rman/git/anewhorizon/DhanmondiPong/Content/simple_paddle.png","C:/Users/rman/git/anewhorizon/DhanmondiPong/Content/bin/DesktopGL/Content/simple_paddle.xnb","TextureProcessor","Texture2DContent",116,4181,0.1407575

@@ -5,8 +5,10 @@
   <Config />
   <SourceFiles>
     <File>C:/Users/rman/git/anewhorizon/DhanmondiPong/Content/simple_ball.png</File>
+    <File>C:/Users/rman/git/anewhorizon/DhanmondiPong/Content/simple_paddle.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>
