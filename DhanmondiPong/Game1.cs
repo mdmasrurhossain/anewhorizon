@@ -4,17 +4,19 @@ using Microsoft.Xna.Framework.Input;
 
 namespace DhanmondiPong
 {
-    public class Game1 : Game
+    public partial class Game1 : Game
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
         private Point _gameBounds = new Point(1280, 720);
 
-        private Rectangle _paddleLeft;
-        private Rectangle _paddleRight;
-        private Vector2 _paddleLeftPosition;
-        private Vector2 _paddleRightPosition; 
-        private float _paddleSpeed = 400f;
+        public Paddle PaddleLeft;
+        public Paddle PaddleRight;
+        public float PaddleSpeed = 400f;
+        public Vector2 PaddleLeftStartPosition;
+        public Vector2 PaddleRightStartPosition;
+        public int PaddleWidth = 30;
+        public int PaddleHeight = 150;
 
         private Rectangle _ball;
         private Vector2 _ballPosition;
@@ -39,13 +41,10 @@ namespace DhanmondiPong
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-
-            _paddleLeftPosition = new Vector2(8, 270);
-            _paddleLeft = new Rectangle((int)_paddleLeftPosition.X, (int)_paddleLeftPosition.Y, 30, 150);
-
-            _paddleRightPosition = new Vector2(1242, 270);
-            _paddleRight = new Rectangle((int)_paddleRightPosition.X, (int)_paddleRightPosition.Y, 30, 150);
-
+            PaddleLeftStartPosition = new Vector2(8, (_gameBounds.Y / 2));
+            PaddleRightStartPosition = new Vector2(_gameBounds.X - PaddleWidth - 8, (_gameBounds.Y / 2));
+            PaddleLeft = new Paddle(PaddleLeftStartPosition, PaddleSpeed, PaddleWidth, PaddleHeight);
+            PaddleRight = new Paddle(PaddleRightStartPosition, PaddleSpeed, PaddleWidth, PaddleHeight);
 
             _ballPosition = new Vector2(_gameBounds.X / 2, 200);
             _ball = new Rectangle((int)_ballPosition.X, (int)_ballPosition.Y, 20, 20);
@@ -62,6 +61,10 @@ namespace DhanmondiPong
             BallTexture = Content.Load<Texture2D>("simple_ball");
             PaddleTexture = Content.Load<Texture2D>("simple_paddle");
 
+            PaddleLeft.Texture = BallTexture;
+            PaddleRight.Texture = BallTexture;
+
+
         }
 
         protected override void Update(GameTime gameTime)
@@ -71,12 +74,9 @@ namespace DhanmondiPong
 
             // TODO: Add your update logic here
             float elapsed = (float)gameTime.ElapsedGameTime.TotalSeconds;
-            float updatedPaddleSpeed = _paddleSpeed * elapsed;
+            float updatedPaddleSpeed = PaddleSpeed * elapsed;
 
             KeyboardState = Keyboard.GetState();
-
-            _paddleLeft.Y = (int)_paddleLeftPosition.Y;
-            _paddleRight.Y = (int)_paddleRightPosition.Y;
 
             _ball.X = (int)_ballPosition.X;
             _ball.Y = (int)_ballPosition.Y;
@@ -86,19 +86,19 @@ namespace DhanmondiPong
             BoundaryCollision();
             GetInput(KeyboardState, updatedPaddleSpeed);
 
-            if (_paddleLeft.Intersects(_ball))
+            if (PaddleLeft.Bounds.Intersects(_ball))
             {
                 _ballVelocity.X *= -1;
                 _ballVelocity.Y *= 1.1f;
-                _ballPosition.X = _paddleLeft.X + _paddleLeft.Width + 10;
+                _ballPosition.X = PaddleLeft.Position.X + PaddleLeft.Width + 10;
                 _ballSpeed += _bounceSpeed;
             }
 
-            if (_paddleRight.Intersects(_ball))
+            if (PaddleRight.Bounds.Intersects(_ball))
             {
                 _ballVelocity.X *= -1;
                 _ballVelocity.Y *= 1.1f;
-                _ballPosition.X = _paddleRight.X - _paddleRight.Width - 10;
+                _ballPosition.X = PaddleRight.Position.X - PaddleRight.Width - 10;
                 _ballSpeed += _bounceSpeed;
             }
 
@@ -112,8 +112,9 @@ namespace DhanmondiPong
             // TODO: Add your drawing code here
             _spriteBatch.Begin();
             _spriteBatch.Draw(BallTexture, _ball, Color.White);
-            _spriteBatch.Draw(PaddleTexture, _paddleLeft, Color.White);
-            _spriteBatch.Draw(PaddleTexture, _paddleRight, Color.White);
+
+            PaddleLeft.Draw(_spriteBatch);
+            PaddleRight.Draw(_spriteBatch);
             _spriteBatch.End();
 
             base.Draw(gameTime);
@@ -126,14 +127,12 @@ namespace DhanmondiPong
             {
                 _ballPosition.X = 1 - 15;
                 _ballVelocity.X *= -1;
-                //_ballSpeed += _bounceSpeed;
             }
 
             else if (_ballPosition.X > _gameBounds.X - 15)
             {
                 _ballPosition.X = _gameBounds.X - 1 - 15;
                 _ballVelocity.X *= -1;
-                //_ballSpeed += _bounceSpeed;
             }
 
             if (_ballPosition.Y < 0)
@@ -154,24 +153,24 @@ namespace DhanmondiPong
         //keyboard input
         private void GetInput(KeyboardState keyboardState, float paddleSpeed)
         {
-            if (keyboardState.IsKeyDown(Keys.W) && _paddleLeftPosition.Y > 0)
+            if (keyboardState.IsKeyDown(Keys.W) && PaddleLeft.Bounds.Y > 0)
             {
-                _paddleLeftPosition.Y -= paddleSpeed;
+                PaddleLeft.Bounds.Y -= (int)paddleSpeed;
             }
 
-            if (keyboardState.IsKeyDown(Keys.S) && _paddleLeftPosition.Y < _gameBounds.Y - _paddleLeft.Height)
+            if (keyboardState.IsKeyDown(Keys.S) && PaddleLeft.Bounds.Y < _gameBounds.Y - PaddleLeft.Height)
             {
-                _paddleLeftPosition.Y += paddleSpeed;
+                PaddleLeft.Bounds.Y += (int)paddleSpeed;
             }
 
-            if (keyboardState.IsKeyDown(Keys.Up) && _paddleRightPosition.Y > 0)
+            if (keyboardState.IsKeyDown(Keys.Up) && PaddleRight.Bounds.Y > 0)
             {
-                _paddleRightPosition.Y -= paddleSpeed;
+                PaddleRight.Bounds.Y -= (int)paddleSpeed;
             }
 
-            if (keyboardState.IsKeyDown(Keys.Down) && _paddleRightPosition.Y < _gameBounds.Y - _paddleRight.Height)
+            if (keyboardState.IsKeyDown(Keys.Down) && PaddleRight.Bounds.Y < _gameBounds.Y - PaddleRight.Height)
             {
-                _paddleRightPosition.Y += paddleSpeed;
+                PaddleRight.Bounds.Y += (int)paddleSpeed;
             }
 
         }

@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{1A4730DB-E25F-4E79-A966-49387E0E8942}|DhanmondiPong.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1A4730DB-E25F-4E79-A966-49387E0E8942}|DhanmondiPong.csproj|c:\\users\\rman\\git\\anewhorizon\\dhanmondipong\\paddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4730DB-E25F-4E79-A966-49387E0E8942}|DhanmondiPong.csproj|solutionrelative:paddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1A4730DB-E25F-4E79-A966-49387E0E8942}|DhanmondiPong.csproj|c:\\users\\rman\\git\\anewhorizon\\dhanmondipong\\content\\simple_ball.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
       "RelativeMoniker": "D:0:0:{1A4730DB-E25F-4E79-A966-49387E0E8942}|DhanmondiPong.csproj|solutionrelative:content\\simple_ball.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,14 +39,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Paddle.cs",
+              "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\DhanmondiPong\\Paddle.cs",
+              "RelativeDocumentMoniker": "Paddle.cs",
+              "ToolTip": "C:\\Users\\rman\\git\\anewhorizon\\DhanmondiPong\\Paddle.cs",
+              "RelativeToolTip": "Paddle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T08:26:03.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "simple_ball.png",
               "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\DhanmondiPong\\Content\\simple_ball.png",
               "RelativeDocumentMoniker": "Content\\simple_ball.png",
               "ToolTip": "C:\\Users\\rman\\git\\anewhorizon\\DhanmondiPong\\Content\\simple_ball.png",
               "RelativeToolTip": "Content\\simple_ball.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-04-17T15:09:20.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T15:09:20.622Z"
             },
             {
               "$type": "Document",
@@ -52,14 +68,14 @@
               "RelativeDocumentMoniker": "Game1.cs",
               "ToolTip": "C:\\Users\\rman\\git\\anewhorizon\\DhanmondiPong\\Game1.cs",
               "RelativeToolTip": "Game1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCEAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T01:40:41.528Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\DhanmondiPong\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
