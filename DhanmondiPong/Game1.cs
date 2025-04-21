@@ -1,14 +1,17 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System;
 
 namespace DhanmondiPong
 {
     public partial class Game1 : Game
     {
+        private Random _random = new Random();
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
         private Point _gameBounds = new Point(1280, 720);
+        private Texture2D _backgroundTexture;
 
         public Paddle PaddleLeft;
         public Paddle PaddleRight;
@@ -17,17 +20,26 @@ namespace DhanmondiPong
         public Vector2 PaddleRightStartPosition;
         public int PaddleWidth = 30;
         public int PaddleHeight = 150;
+  
 
         private Rectangle _ball;
         private Vector2 _ballPosition;
         private Vector2 _ballVelocity;
         private float _ballSpeed = 300f;
         private float _bounceSpeed = 20f;
-
         public Texture2D BallTexture;
-        public Texture2D PaddleTexture;
+
+        private SpriteFont _scoreFont;
+        private SpriteFont _winnerFont;
+        private int _scoreLeft = 0;
+        private int _scoreRight = 0;
+        private int _winningScore = 10;
 
         public KeyboardState KeyboardState;
+
+        public enum GameState { Playing, GameOver }
+        private GameState _gameState = GameState.Playing;
+
 
         public Game1()
         {
@@ -41,13 +53,14 @@ namespace DhanmondiPong
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            PaddleLeftStartPosition = new Vector2(8, (_gameBounds.Y / 2));
-            PaddleRightStartPosition = new Vector2(_gameBounds.X - PaddleWidth - 8, (_gameBounds.Y / 2));
+
+            PaddleLeftStartPosition = new Vector2(8, (_gameBounds.Y / 2) - (PaddleHeight / 2));
+            PaddleRightStartPosition = new Vector2(_gameBounds.X - PaddleWidth - 8, (_gameBounds.Y / 2) - (PaddleHeight / 2));
+
             PaddleLeft = new Paddle(PaddleLeftStartPosition, PaddleSpeed, PaddleWidth, PaddleHeight);
             PaddleRight = new Paddle(PaddleRightStartPosition, PaddleSpeed, PaddleWidth, PaddleHeight);
 
-            _ballPosition = new Vector2(_gameBounds.X / 2, 200);
-            _ball = new Rectangle((int)_ballPosition.X, (int)_ballPosition.Y, 20, 20);
+            ResetBall();
             _ballVelocity = new Vector2(1, 0.1f);
 
             base.Initialize();
@@ -59,11 +72,12 @@ namespace DhanmondiPong
 
             // TODO: use this.Content to load your game content here
             BallTexture = Content.Load<Texture2D>("simple_ball");
-            PaddleTexture = Content.Load<Texture2D>("simple_paddle");
+            PaddleLeft.Texture = Content.Load<Texture2D>("simple_paddle");
+            PaddleRight.Texture = Content.Load<Texture2D>("simple_paddle");
+            _backgroundTexture = Content.Load<Texture2D>("simple_background");
 
-            PaddleLeft.Texture = BallTexture;
-            PaddleRight.Texture = BallTexture;
-
+            _scoreFont = Content.Load<SpriteFont>("Score");
+            _winnerFont = Content.Load<SpriteFont>("Winner");
 
         }
 
@@ -73,10 +87,13 @@ namespace DhanmondiPong
                 Exit();
 
             // TODO: Add your update logic here
-            float elapsed = (float)gameTime.ElapsedGameTime.TotalSeconds;
-            float updatedPaddleSpeed = PaddleSpeed * elapsed;
+            if (_gameState == GameState.GameOver) return;
+            if (_scoreLeft >= _winningScore || _scoreRight >= _winningScore) _gameState = GameState.GameOver;
 
             KeyboardState = Keyboard.GetState();
+
+            float elapsed = (float)gameTime.ElapsedGameTime.TotalSeconds;
+            float updatedPaddleSpeed = PaddleSpeed * elapsed;
 
             _ball.X = (int)_ballPosition.X;
             _ball.Y = (int)_ballPosition.Y;
@@ -111,28 +128,45 @@ namespace DhanmondiPong
 
             // TODO: Add your drawing code here
             _spriteBatch.Begin();
+
+            _spriteBatch.Draw(_backgroundTexture, new Vector2(0, 0), Color.White);
+            _spriteBatch.DrawString(_scoreFont, $"{_scoreLeft}", new Vector2(((_gameBounds.X / 2) - 40), 0), Color.Black);
+            _spriteBatch.DrawString(_scoreFont, $"{_scoreRight}", new Vector2(((_gameBounds.X / 2) + 24), 0), Color.Black);
+
             _spriteBatch.Draw(BallTexture, _ball, Color.White);
 
             PaddleLeft.Draw(_spriteBatch);
             PaddleRight.Draw(_spriteBatch);
+
+
+            if(_gameState == GameState.GameOver)
+            {
+                string winner = _scoreLeft >= _winningScore ? "Left Player Wins!" : "Right Player Wins!";
+                _spriteBatch.DrawString(_winnerFont, $"{winner}", new Vector2(((_gameBounds.X / 2) - 200), _gameBounds.Y / 2), Color.Black);
+     
+            }
+                
+
             _spriteBatch.End();
 
             base.Draw(gameTime);
         }
 
-        //screen boundary collision
+        //boundary collision
         private void BoundaryCollision()
         {
             if (_ballPosition.X < 0 - 15)
             {
                 _ballPosition.X = 1 - 15;
-                _ballVelocity.X *= -1;
+                _scoreRight++;
+                ResetBall();
             }
 
             else if (_ballPosition.X > _gameBounds.X - 15)
             {
                 _ballPosition.X = _gameBounds.X - 1 - 15;
-                _ballVelocity.X *= -1;
+                _scoreLeft++;
+                ResetBall();
             }
 
             if (_ballPosition.Y < 0)
@@ -174,5 +208,14 @@ namespace DhanmondiPong
             }
 
         }
+
+        private void ResetBall()
+        {
+            _ballSpeed = 350f;
+            _ballPosition = new Vector2(_gameBounds.X / 2, _random.Next(10, _gameBounds.Y));
+            _ball = new Rectangle((int)_ballPosition.X, (int)_ballPosition.Y, 20, 20);
+            
+        }
+
     }
 }

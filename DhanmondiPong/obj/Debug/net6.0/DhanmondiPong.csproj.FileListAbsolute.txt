@@ -26,3 +26,6 @@ C:\Users\rman\git\anewhorizon\DhanmondiPong\obj\Debug\net6.0\DhanmondiPong.genru
 C:\Users\rman\git\anewhorizon\DhanmondiPong\obj\Debug\net6.0\ref\DhanmondiPong.dll
 C:\Users\rman\git\anewhorizon\DhanmondiPong\bin\Debug\net6.0\Content\simple_ball.xnb
 C:\Users\rman\git\anewhorizon\DhanmondiPong\bin\Debug\net6.0\Content\simple_paddle.xnb
+C:\Users\rman\git\anewhorizon\DhanmondiPong\bin\Debug\net6.0\Content\simple_background.xnb
+C:\Users\rman\git\anewhorizon\DhanmondiPong\bin\Debug\net6.0\Content\Score.xnb
+C:\Users\rman\git\anewhorizon\DhanmondiPong\bin\Debug\net6.0\Content\Winner.xnb

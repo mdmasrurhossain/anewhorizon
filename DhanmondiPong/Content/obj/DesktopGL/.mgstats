@@ -1,3 +1,6 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/rman/git/anewhorizon/DhanmondiPong/Content/simple_ball.png","C:/Users/rman/git/anewhorizon/DhanmondiPong/Content/bin/DesktopGL/simple_ball.xnb","TextureProcessor","Texture2DContent",220,16469,0.1333669
+"C:/Users/rman/git/anewhorizon/DhanmondiPong/Content/Score.spritefont","C:/Users/rman/git/anewhorizon/DhanmondiPong/Content/bin/DesktopGL/Score.xnb","FontDescriptionProcessor","SpriteFontContent",2068,70687,0.2264505
+"C:/Users/rman/git/anewhorizon/DhanmondiPong/Content/simple_background.png","C:/Users/rman/git/anewhorizon/DhanmondiPong/Content/bin/DesktopGL/simple_background.xnb","TextureProcessor","Texture2DContent",5486,3686485,0.296136
+"C:/Users/rman/git/anewhorizon/DhanmondiPong/Content/simple_ball.png","C:/Users/rman/git/anewhorizon/DhanmondiPong/Content/bin/DesktopGL/simple_ball.xnb","TextureProcessor","Texture2DContent",221,16469,0.1296723
 "C:/Users/rman/git/anewhorizon/DhanmondiPong/Content/simple_paddle.png","C:/Users/rman/git/anewhorizon/DhanmondiPong/Content/bin/DesktopGL/simple_paddle.xnb","TextureProcessor","Texture2DContent",116,4181,0.1348873
+"C:/Users/rman/git/anewhorizon/DhanmondiPong/Content/Winner.spritefont","C:/Users/rman/git/anewhorizon/DhanmondiPong/Content/bin/DesktopGL/Winner.xnb","FontDescriptionProcessor","SpriteFontContent",2068,21535,0.0217361

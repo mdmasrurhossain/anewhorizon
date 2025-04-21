@@ -4,10 +4,16 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>C:/Users/rman/git/anewhorizon/DhanmondiPong/Content/Score.spritefont</File>
+    <File>C:/Users/rman/git/anewhorizon/DhanmondiPong/Content/simple_background.png</File>
     <File>C:/Users/rman/git/anewhorizon/DhanmondiPong/Content/simple_ball.png</File>
     <File>C:/Users/rman/git/anewhorizon/DhanmondiPong/Content/simple_paddle.png</File>
+    <File>C:/Users/rman/git/anewhorizon/DhanmondiPong/Content/Winner.spritefont</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
