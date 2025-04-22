@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DhanmondiPong")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1fec3be46db685da528364c0c77857d5a7f65d4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f66c85ac8b2c1757ff01e3494bae412b26e17d8f")]
 [assembly: System.Reflection.AssemblyProductAttribute("DhanmondiPong")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DhanmondiPong")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

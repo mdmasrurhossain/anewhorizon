@@ -35,6 +35,9 @@ namespace DhanmondiPong
         private int _scoreRight = 0;
         private int _winningScore = 10;
 
+        private AudioSource _soundFX;
+        private int _jungleCounter = 0;
+
         public KeyboardState KeyboardState;
 
         public enum GameState { Playing, GameOver }
@@ -59,6 +62,8 @@ namespace DhanmondiPong
 
             PaddleLeft = new Paddle(PaddleLeftStartPosition, PaddleSpeed, PaddleWidth, PaddleHeight);
             PaddleRight = new Paddle(PaddleRightStartPosition, PaddleSpeed, PaddleWidth, PaddleHeight);
+
+            _soundFX = new AudioSource();
 
             ResetBall();
             _ballVelocity = new Vector2(1, 0.1f);
@@ -109,6 +114,7 @@ namespace DhanmondiPong
                 _ballVelocity.Y *= 1.1f;
                 _ballPosition.X = PaddleLeft.Position.X + PaddleLeft.Width + 10;
                 _ballSpeed += _bounceSpeed;
+                _soundFX.PlayWave(220.0f, 50, WaveType.Sin, 0.3f);
             }
 
             if (PaddleRight.Bounds.Intersects(_ball))
@@ -117,7 +123,21 @@ namespace DhanmondiPong
                 _ballVelocity.Y *= 1.1f;
                 _ballPosition.X = PaddleRight.Position.X - PaddleRight.Width - 10;
                 _ballSpeed += _bounceSpeed;
+                _soundFX.PlayWave(220.0f, 50, WaveType.Sin, 0.3f);
             }
+
+            #region Play Reset Jingle
+            //use jingle counter as a timeline to play notes
+            _jungleCounter++;
+
+            int speed = 7;
+            if (_jungleCounter == speed * 1) { _soundFX.PlayWave(440.0f, 100, WaveType.Sin, 0.2f); }
+            else if (_jungleCounter == speed * 2) { _soundFX.PlayWave(523.25f, 100, WaveType.Sin, 0.2f); }
+            else if (_jungleCounter == speed * 3) { _soundFX.PlayWave(659.25f, 100, WaveType.Sin, 0.2f); }
+            else if (_jungleCounter == speed * 4) { _soundFX.PlayWave(783.99f, 100, WaveType.Sin, 0.2f); }
+            //only play this jingle once
+            else if (_jungleCounter > speed * 4) { _jungleCounter = int.MaxValue - 1; }
+            #endregion Play Reset Jingle
 
             base.Update(gameTime);
         }
@@ -159,6 +179,7 @@ namespace DhanmondiPong
             {
                 _ballPosition.X = 1 - 15;
                 _scoreRight++;
+                _soundFX.PlayWave(440.4f, 50, WaveType.Square, 0.3f);
                 ResetBall();
             }
 
@@ -166,6 +187,7 @@ namespace DhanmondiPong
             {
                 _ballPosition.X = _gameBounds.X - 1 - 15;
                 _scoreLeft++;
+                _soundFX.PlayWave(440.4f, 50, WaveType.Square, 0.3f);
                 ResetBall();
             }
 
@@ -215,6 +237,7 @@ namespace DhanmondiPong
             _ballPosition = new Vector2(_gameBounds.X / 2, _random.Next(10, _gameBounds.Y));
             _ball = new Rectangle((int)_ballPosition.X, (int)_ballPosition.Y, 20, 20);
             
+            _jungleCounter = 0;
         }
 
     }
