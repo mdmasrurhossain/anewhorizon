@@ -1,0 +1,255 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rman\\git\\anewhorizon\\CharacterAnimation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DBB64D99-9B8F-48D5-8896-549E9ABA225B}|CharacterAnimation.csproj|c:\\users\\rman\\git\\anewhorizon\\characteranimation\\core\\character\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBB64D99-9B8F-48D5-8896-549E9ABA225B}|CharacterAnimation.csproj|solutionrelative:core\\character\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBB64D99-9B8F-48D5-8896-549E9ABA225B}|CharacterAnimation.csproj|c:\\users\\rman\\git\\anewhorizon\\characteranimation\\core\\managers\\animationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBB64D99-9B8F-48D5-8896-549E9ABA225B}|CharacterAnimation.csproj|solutionrelative:core\\managers\\animationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBB64D99-9B8F-48D5-8896-549E9ABA225B}|CharacterAnimation.csproj|c:\\users\\rman\\git\\anewhorizon\\characteranimation\\core\\animation\\animation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBB64D99-9B8F-48D5-8896-549E9ABA225B}|CharacterAnimation.csproj|solutionrelative:core\\animation\\animation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBB64D99-9B8F-48D5-8896-549E9ABA225B}|CharacterAnimation.csproj|c:\\users\\rman\\git\\anewhorizon\\characteranimation\\core\\managers\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBB64D99-9B8F-48D5-8896-549E9ABA225B}|CharacterAnimation.csproj|solutionrelative:core\\managers\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBB64D99-9B8F-48D5-8896-549E9ABA225B}|CharacterAnimation.csproj|c:\\users\\rman\\git\\anewhorizon\\characteranimation\\core\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBB64D99-9B8F-48D5-8896-549E9ABA225B}|CharacterAnimation.csproj|solutionrelative:core\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBB64D99-9B8F-48D5-8896-549E9ABA225B}|CharacterAnimation.csproj|c:\\users\\rman\\git\\anewhorizon\\characteranimation\\core\\character\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBB64D99-9B8F-48D5-8896-549E9ABA225B}|CharacterAnimation.csproj|solutionrelative:core\\character\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBB64D99-9B8F-48D5-8896-549E9ABA225B}|CharacterAnimation.csproj|c:\\users\\rman\\git\\anewhorizon\\characteranimation\\core\\core\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBB64D99-9B8F-48D5-8896-549E9ABA225B}|CharacterAnimation.csproj|solutionrelative:core\\core\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBB64D99-9B8F-48D5-8896-549E9ABA225B}|CharacterAnimation.csproj|c:\\users\\rman\\git\\anewhorizon\\characteranimation\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBB64D99-9B8F-48D5-8896-549E9ABA225B}|CharacterAnimation.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBB64D99-9B8F-48D5-8896-549E9ABA225B}|CharacterAnimation.csproj|c:\\users\\rman\\git\\anewhorizon\\characteranimation\\content\\sprites\\player\\player_idle_run_death_anim.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{DBB64D99-9B8F-48D5-8896-549E9ABA225B}|CharacterAnimation.csproj|solutionrelative:content\\sprites\\player\\player_idle_run_death_anim.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBB64D99-9B8F-48D5-8896-549E9ABA225B}|CharacterAnimation.csproj|c:\\users\\rman\\git\\anewhorizon\\characteranimation\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBB64D99-9B8F-48D5-8896-549E9ABA225B}|CharacterAnimation.csproj|solutionrelative:usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBB64D99-9B8F-48D5-8896-549E9ABA225B}|CharacterAnimation.csproj|c:\\users\\rman\\git\\anewhorizon\\characteranimation\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DBB64D99-9B8F-48D5-8896-549E9ABA225B}|CharacterAnimation.csproj|solutionrelative:app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBB64D99-9B8F-48D5-8896-549E9ABA225B}|CharacterAnimation.csproj|c:\\users\\rman\\git\\anewhorizon\\characteranimation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBB64D99-9B8F-48D5-8896-549E9ABA225B}|CharacterAnimation.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Player_Idle_Run_Death_Anim.png -  [English (United States)] - PNG [256x416, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\CharacterAnimation\\Content\\Sprites\\Player\\Player_Idle_Run_Death_Anim.png",
+              "RelativeDocumentMoniker": "Content\\Sprites\\Player\\Player_Idle_Run_Death_Anim.png",
+              "ToolTip": "C:\\Users\\rman\\git\\anewhorizon\\CharacterAnimation\\Content\\Sprites\\Player\\Player_Idle_Run_Death_Anim.png -  [English (United States)] - PNG [256x416, 32 bit, PNG]",
+              "RelativeToolTip": "Content\\Sprites\\Player\\Player_Idle_Run_Death_Anim.png -  [English (United States)] - PNG [256x416, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-04-29T15:14:21.954Z",
+              "EditorCaption": " -  [English (United States)] - PNG [256x416, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Usings.cs",
+              "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\CharacterAnimation\\Usings.cs",
+              "RelativeDocumentMoniker": "Usings.cs",
+              "ToolTip": "C:\\Users\\rman\\git\\anewhorizon\\CharacterAnimation\\Usings.cs",
+              "RelativeToolTip": "Usings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T15:05:00.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\CharacterAnimation\\app.manifest",
+              "RelativeDocumentMoniker": "app.manifest",
+              "ToolTip": "C:\\Users\\rman\\git\\anewhorizon\\CharacterAnimation\\app.manifest",
+              "RelativeToolTip": "app.manifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2025-04-29T15:01:09.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\CharacterAnimation\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\rman\\git\\anewhorizon\\CharacterAnimation\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:56:53.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\CharacterAnimation\\Core\\Character\\Player.cs",
+              "RelativeDocumentMoniker": "Core\\Character\\Player.cs",
+              "ToolTip": "C:\\Users\\rman\\git\\anewhorizon\\CharacterAnimation\\Core\\Character\\Player.cs",
+              "RelativeToolTip": "Core\\Character\\Player.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBcAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:38:14.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\CharacterAnimation\\Core\\Character\\Character.cs",
+              "RelativeDocumentMoniker": "Core\\Character\\Character.cs",
+              "ToolTip": "C:\\Users\\rman\\git\\anewhorizon\\CharacterAnimation\\Core\\Character\\Character.cs",
+              "RelativeToolTip": "Core\\Character\\Character.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:25:01.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\CharacterAnimation\\Core\\Managers\\GameManager.cs",
+              "RelativeDocumentMoniker": "Core\\Managers\\GameManager.cs",
+              "ToolTip": "C:\\Users\\rman\\git\\anewhorizon\\CharacterAnimation\\Core\\Managers\\GameManager.cs",
+              "RelativeToolTip": "Core\\Managers\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:24:22.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InputManager.cs",
+              "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\CharacterAnimation\\Core\\Managers\\InputManager.cs",
+              "RelativeDocumentMoniker": "Core\\Managers\\InputManager.cs",
+              "ToolTip": "C:\\Users\\rman\\git\\anewhorizon\\CharacterAnimation\\Core\\Managers\\InputManager.cs",
+              "RelativeToolTip": "Core\\Managers\\InputManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T03:11:49.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnimationManager.cs",
+              "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\CharacterAnimation\\Core\\Managers\\AnimationManager.cs",
+              "RelativeDocumentMoniker": "Core\\Managers\\AnimationManager.cs",
+              "ToolTip": "C:\\Users\\rman\\git\\anewhorizon\\CharacterAnimation\\Core\\Managers\\AnimationManager.cs",
+              "RelativeToolTip": "Core\\Managers\\AnimationManager.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T03:03:11.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Globals.cs",
+              "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\CharacterAnimation\\Core\\Core\\Globals.cs",
+              "RelativeDocumentMoniker": "Core\\Core\\Globals.cs",
+              "ToolTip": "C:\\Users\\rman\\git\\anewhorizon\\CharacterAnimation\\Core\\Core\\Globals.cs",
+              "RelativeToolTip": "Core\\Core\\Globals.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T02:28:05.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Animation.cs",
+              "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\CharacterAnimation\\Core\\Animation\\Animation.cs",
+              "RelativeDocumentMoniker": "Core\\Animation\\Animation.cs",
+              "ToolTip": "C:\\Users\\rman\\git\\anewhorizon\\CharacterAnimation\\Core\\Animation\\Animation.cs",
+              "RelativeToolTip": "Core\\Animation\\Animation.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAA5wD8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T02:16:46.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\CharacterAnimation\\Game1.cs",
+              "RelativeDocumentMoniker": "Game1.cs",
+              "ToolTip": "C:\\Users\\rman\\git\\anewhorizon\\CharacterAnimation\\Game1.cs",
+              "RelativeToolTip": "Game1.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAUwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T02:11:29.27Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
