@@ -13,7 +13,7 @@ namespace CameraProject
 
         public Player()
         {
-            Position = new Vector2(100, 100);
+            Position = new Vector2(600, 300);
             Texture = Globals.Content.Load<Texture2D>("Sprites/Player/Player_Idle_Run_Death_Anim");
             AnimationManager.AddAnimation("IdleDown", new Animation(Texture, 8, 13, 6, 0.1f, 0));
             AnimationManager.AddAnimation("IdleRight", new Animation(Texture, 8, 13, 6, 0.1f, 1));
