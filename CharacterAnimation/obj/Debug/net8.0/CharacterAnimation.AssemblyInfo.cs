@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CharacterAnimation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b587ac49b8f285fd883f9c810ce2dcd9e5195834")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea2dad01e06435baaf720a5fab8002f5ccf96e22")]
 [assembly: System.Reflection.AssemblyProductAttribute("CharacterAnimation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CharacterAnimation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

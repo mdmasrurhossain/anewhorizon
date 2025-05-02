@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>C:/Users/rman/git/anewhorizon/CharacterAnimation/Content/Sprites/Player/Player_Idle_Run_Death_Anim.png</SourceFile>
-  <SourceTime>2025-04-28T22:47:13.9228413-04:00</SourceTime>
+  <SourceTime>2025-04-29T21:53:11.5884555-04:00</SourceTime>
   <DestFile>C:/Users/rman/git/anewhorizon/CharacterAnimation/Content/bin/DesktopGL/Content/Sprites/Player/Player_Idle_Run_Death_Anim.xnb</DestFile>
-  <DestTime>2025-04-29T11:13:27.8725079-04:00</DestTime>
+  <DestTime>2025-04-29T21:53:38.3752006-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2025-04-05T06:10:54-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

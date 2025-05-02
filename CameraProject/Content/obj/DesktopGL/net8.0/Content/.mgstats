@@ -1,0 +1,6 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/rman/git/anewhorizon/CameraProject/Content/Sprites/Player/Player_Idle_Run_Death_Anim.png","C:/Users/rman/git/anewhorizon/CameraProject/Content/bin/DesktopGL/Content/Sprites/Player/Player_Idle_Run_Death_Anim.xnb","TextureProcessor","Texture2DContent",9149,426069,0.1411537
+"C:/Users/rman/git/anewhorizon/CameraProject/Content/Sprites/Tiles/farm.png","C:/Users/rman/git/anewhorizon/CameraProject/Content/bin/DesktopGL/Content/Sprites/Tiles/farm.xnb","TextureProcessor","Texture2DContent",1328,57429,0.1473044
+"C:/Users/rman/git/anewhorizon/CameraProject/Content/Sprites/Tiles/grass.png","C:/Users/rman/git/anewhorizon/CameraProject/Content/bin/DesktopGL/Content/Sprites/Tiles/grass.xnb","TextureProcessor","Texture2DContent",2624,50261,0.0075349
+"C:/Users/rman/git/anewhorizon/CameraProject/Content/Sprites/Tiles/tree.png","C:/Users/rman/git/anewhorizon/CameraProject/Content/bin/DesktopGL/Content/Sprites/Tiles/tree.xnb","TextureProcessor","Texture2DContent",1287,8277,0.0055732
+"C:/Users/rman/git/anewhorizon/CameraProject/Content/Sprites/Tiles/water.png","C:/Users/rman/git/anewhorizon/CameraProject/Content/bin/DesktopGL/Content/Sprites/Tiles/water.xnb","TextureProcessor","Texture2DContent",1422,15445,0.0043979

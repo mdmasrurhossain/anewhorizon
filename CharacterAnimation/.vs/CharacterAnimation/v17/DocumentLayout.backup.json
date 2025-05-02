@@ -114,8 +114,7 @@
               "RelativeToolTip": "Usings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T15:05:00.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T15:05:00.81Z"
             },
             {
               "$type": "Document",
@@ -127,8 +126,7 @@
               "RelativeToolTip": "app.manifest",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
-              "WhenOpened": "2025-04-29T15:01:09.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T15:01:09.267Z"
             },
             {
               "$type": "Document",
@@ -140,8 +138,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T14:56:53.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T14:56:53.902Z"
             },
             {
               "$type": "Document",
@@ -151,7 +148,7 @@
               "RelativeDocumentMoniker": "Core\\Character\\Player.cs",
               "ToolTip": "C:\\Users\\rman\\git\\anewhorizon\\CharacterAnimation\\Core\\Character\\Player.cs",
               "RelativeToolTip": "Core\\Character\\Player.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwEIAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBcAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T14:38:14.65Z",
               "EditorCaption": ""
@@ -166,8 +163,7 @@
               "RelativeToolTip": "Core\\Character\\Character.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T14:25:01.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T14:25:01.609Z"
             },
             {
               "$type": "Document",
@@ -179,8 +175,7 @@
               "RelativeToolTip": "Core\\Managers\\GameManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T14:24:22.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T14:24:22.701Z"
             },
             {
               "$type": "Document",
@@ -192,8 +187,7 @@
               "RelativeToolTip": "Core\\Managers\\InputManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T03:11:49.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T03:11:49.535Z"
             },
             {
               "$type": "Document",
@@ -205,8 +199,7 @@
               "RelativeToolTip": "Core\\Managers\\AnimationManager.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAQwCsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T03:03:11.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T03:03:11.527Z"
             },
             {
               "$type": "Document",
@@ -218,8 +211,7 @@
               "RelativeToolTip": "Core\\Core\\Globals.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T02:28:05.763Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T02:28:05.763Z"
             },
             {
               "$type": "Document",
@@ -231,8 +223,7 @@
               "RelativeToolTip": "Core\\Animation\\Animation.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAA5wD8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T02:16:46.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T02:16:46.211Z"
             },
             {
               "$type": "Document",
@@ -244,8 +235,7 @@
               "RelativeToolTip": "Game1.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAUwEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T02:11:29.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T02:11:29.27Z"
             }
           ]
         }
