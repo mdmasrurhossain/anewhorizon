@@ -46,18 +46,18 @@ namespace CameraProject
                 return;
             }
 
-            var dir = Vector2.Normalize(InputManager.Direction);
+            var direction = Vector2.Normalize(InputManager.Direction);
             string directionKey = "Down";
             _flip = SpriteEffects.None;
 
-            if (Math.Abs(dir.X) > Math.Abs(dir.Y))
+            if (Math.Abs(direction.X) > Math.Abs(direction.Y))
             {
                 directionKey = "Right";
-                if (dir.X < 0) _flip = SpriteEffects.FlipHorizontally;
+                if (direction.X < 0) _flip = SpriteEffects.FlipHorizontally;
             }
             else
             {
-                directionKey = dir.Y > 0 ? "Down" : "Up";
+                directionKey = direction.Y > 0 ? "Down" : "Up";
             }
 
             _lastDirection = directionKey;

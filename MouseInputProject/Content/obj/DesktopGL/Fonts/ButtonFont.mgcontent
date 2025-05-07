@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Users/rman/git/anewhorizon/MouseInputProject/Content/Fonts/ButtonFont.spritefont</SourceFile>
+  <SourceTime>2025-04-05T06:07:32-04:00</SourceTime>
+  <DestFile>C:/Users/rman/git/anewhorizon/MouseInputProject/Content/bin/DesktopGL/Fonts/ButtonFont.xnb</DestFile>
+  <DestTime>2025-05-04T03:41:41.3311788-04:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2025-04-05T06:10:54-04:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2025-04-05T06:10:54-04:00</ProcessorTime>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

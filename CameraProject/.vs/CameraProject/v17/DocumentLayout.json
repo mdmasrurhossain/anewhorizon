@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\rman\\git\\anewhorizon\\CameraProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|c:\\users\\rman\\git\\anewhorizon\\cameraproject\\core\\core\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|solutionrelative:core\\core\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|c:\\users\\rman\\git\\anewhorizon\\cameraproject\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|solutionrelative:usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|c:\\users\\rman\\git\\anewhorizon\\cameraproject\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|c:\\users\\rman\\git\\anewhorizon\\cameraproject\\core\\character\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|c:\\users\\rman\\git\\anewhorizon\\cameraproject\\core\\animation\\animation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|solutionrelative:core\\animation\\animation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|c:\\users\\rman\\git\\anewhorizon\\cameraproject\\core\\core\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|solutionrelative:core\\core\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|c:\\users\\rman\\git\\anewhorizon\\cameraproject\\core\\managers\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,6 +35,10 @@
       "RelativeMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|solutionrelative:core\\managers\\animationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|c:\\users\\rman\\git\\anewhorizon\\cameraproject\\core\\character\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|solutionrelative:core\\character\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|c:\\users\\rman\\git\\anewhorizon\\cameraproject\\core\\core\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|solutionrelative:core\\core\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,12 +47,8 @@
       "RelativeMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|solutionrelative:core\\core\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|c:\\users\\rman\\git\\anewhorizon\\cameraproject\\core\\character\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|solutionrelative:core\\character\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|c:\\users\\rman\\git\\anewhorizon\\cameraproject\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|c:\\users\\rman\\git\\anewhorizon\\cameraproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|c:\\users\\rman\\git\\anewhorizon\\cameraproject\\content\\sprites\\tiles\\grass.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
@@ -49,14 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|c:\\users\\rman\\git\\anewhorizon\\cameraproject\\content\\sprites\\tiles\\farm.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
       "RelativeMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|solutionrelative:content\\sprites\\tiles\\farm.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|c:\\users\\rman\\git\\anewhorizon\\cameraproject\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|solutionrelative:usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|c:\\users\\rman\\git\\anewhorizon\\cameraproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63D6DF76-1467-40CE-9405-A6EE66674F84}|CameraProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "grass.png -  [English (United States)] - PNG [112x112, 32 bit, PNG]",
               "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\CameraProject\\Content\\Sprites\\Tiles\\grass.png",
               "RelativeDocumentMoniker": "Content\\Sprites\\Tiles\\grass.png",
@@ -114,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "farm.png -  [English (United States)] - PNG [112x128, 32 bit, PNG]",
               "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\CameraProject\\Content\\Sprites\\Tiles\\farm.png",
               "RelativeDocumentMoniker": "Content\\Sprites\\Tiles\\farm.png",
@@ -126,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "Usings.cs",
               "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\CameraProject\\Usings.cs",
               "RelativeDocumentMoniker": "Usings.cs",
@@ -134,23 +134,25 @@
               "RelativeToolTip": "Usings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T16:50:04.352Z"
+              "WhenOpened": "2025-05-01T16:50:04.352Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Map.cs",
               "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\CameraProject\\Core\\Core\\Map.cs",
               "RelativeDocumentMoniker": "Core\\Core\\Map.cs",
               "ToolTip": "C:\\Users\\rman\\git\\anewhorizon\\CameraProject\\Core\\Core\\Map.cs",
               "RelativeToolTip": "Core\\Core\\Map.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwB8AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T16:40:43.815Z"
+              "WhenOpened": "2025-05-01T16:40:43.815Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\CameraProject\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -158,37 +160,38 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T02:53:17.914Z"
+              "WhenOpened": "2025-04-30T02:53:17.914Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Animation.cs",
               "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\CameraProject\\Core\\Animation\\Animation.cs",
               "RelativeDocumentMoniker": "Core\\Animation\\Animation.cs",
               "ToolTip": "C:\\Users\\rman\\git\\anewhorizon\\CameraProject\\Core\\Animation\\Animation.cs",
               "RelativeToolTip": "Core\\Animation\\Animation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAB2AAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAA3wEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T02:38:00.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Camera.cs",
               "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\CameraProject\\Core\\Core\\Camera.cs",
               "RelativeDocumentMoniker": "Core\\Core\\Camera.cs",
               "ToolTip": "C:\\Users\\rman\\git\\anewhorizon\\CameraProject\\Core\\Core\\Camera.cs",
               "RelativeToolTip": "Core\\Core\\Camera.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T02:04:19.309Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "Game1.cs",
               "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\CameraProject\\Game1.cs",
               "RelativeDocumentMoniker": "Game1.cs",
@@ -196,11 +199,12 @@
               "RelativeToolTip": "Game1.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T01:58:25.193Z"
+              "WhenOpened": "2025-04-30T01:58:25.193Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "InputManager.cs",
               "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\CameraProject\\Core\\Managers\\InputManager.cs",
               "RelativeDocumentMoniker": "Core\\Managers\\InputManager.cs",
@@ -208,11 +212,12 @@
               "RelativeToolTip": "Core\\Managers\\InputManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T01:58:12.098Z"
+              "WhenOpened": "2025-04-30T01:58:12.098Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\CameraProject\\Core\\Managers\\GameManager.cs",
               "RelativeDocumentMoniker": "Core\\Managers\\GameManager.cs",
@@ -220,11 +225,12 @@
               "RelativeToolTip": "Core\\Managers\\GameManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T01:58:11.133Z"
+              "WhenOpened": "2025-04-30T01:58:11.133Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Globals.cs",
               "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\CameraProject\\Core\\Core\\Globals.cs",
               "RelativeDocumentMoniker": "Core\\Core\\Globals.cs",
@@ -232,19 +238,21 @@
               "RelativeToolTip": "Core\\Core\\Globals.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T01:58:07.825Z"
+              "WhenOpened": "2025-04-30T01:58:07.825Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AnimationManager.cs",
               "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\CameraProject\\Core\\Managers\\AnimationManager.cs",
               "RelativeDocumentMoniker": "Core\\Managers\\AnimationManager.cs",
               "ToolTip": "C:\\Users\\rman\\git\\anewhorizon\\CameraProject\\Core\\Managers\\AnimationManager.cs",
               "RelativeToolTip": "Core\\Managers\\AnimationManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wAQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T01:58:06.494Z"
+              "WhenOpened": "2025-04-30T01:58:06.494Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -254,19 +262,20 @@
               "RelativeDocumentMoniker": "Core\\Character\\Character.cs",
               "ToolTip": "C:\\Users\\rman\\git\\anewhorizon\\CameraProject\\Core\\Character\\Character.cs",
               "RelativeToolTip": "Core\\Character\\Character.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T01:58:02.497Z"
+              "WhenOpened": "2025-04-30T01:58:02.497Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\rman\\git\\anewhorizon\\CameraProject\\Core\\Character\\Player.cs",
               "RelativeDocumentMoniker": "Core\\Character\\Player.cs",
               "ToolTip": "C:\\Users\\rman\\git\\anewhorizon\\CameraProject\\Core\\Character\\Player.cs",
               "RelativeToolTip": "Core\\Character\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwD8AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T01:56:57.665Z",
               "EditorCaption": ""
